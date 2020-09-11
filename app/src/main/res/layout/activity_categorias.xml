@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomorado"
+    android:clickable="false"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.toshiba.tesisparte1.com.example.toshiba.restaurantapp.categorias">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Categorias"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffea7324"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/jugo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ovalo"
+                android:src="@drawable/bebida" />
+
+            <ImageButton
+                android:id="@+id/cangrejo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ovalo"
+                android:src="@drawable/cangrejo" />
+
+            <ImageButton
+                android:id="@+id/baquita"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ovalo"
+                android:src="@drawable/baquita" />
+
+            <ImageButton
+                android:id="@+id/porciones"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ovalo"
+                android:src="@drawable/porcion" />
+
+            <ImageButton
+                android:id="@+id/atras"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/circulo"
+                android:src="@android:drawable/ic_menu_revert" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
